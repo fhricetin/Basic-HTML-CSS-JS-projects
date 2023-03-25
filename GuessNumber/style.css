@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;}
+
+body{ background-color: rgb(43, 42, 42);}
+
+header{
+  border-color: whitesmoke;
+  
+  position: relative;
+  height: 47.5vh;
+  border-bottom: 7px solid #eee;}
+
+.again{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  background-color: whitesmoke;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 4%;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  float: right;}
+
+.btn:hover {background-color: #b6b0b0}
+
+
+h1{
+  font-family: 'Anton', sans-serif;
+  color: whitesmoke;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 80px;}
+
+.between{
+  font-family: 'Anton', sans-serif;
+  color: whitesmoke;
+  margin-top: 0.4rem;
+  text-align: center;
+  font-size: 30px;}
+
+.question{
+  background-color: whitesmoke;
+  margin-top: 1.4rem;
+  height:100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;}
+
+.left{
+  position: absolute;
+  left: 0px;
+  width: 50%;}
+
+.right{
+  position: absolute;
+  right: 0px;
+  width: 50%;}
+
+.guess{
+    margin-top: 6rem;
+    width: 20rem;
+    height: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42);
+    border-color: whitesmoke;
+    border: 4px solid ;
+    font-size: 40px;
+    color: whitesmoke; } 
+
+  .check{
+    margin-top: 2rem;
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px; }
+
+  .message{
+    margin-top: 5rem;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;  }
+
+  .label-score{
+    margin-top: 1.4rem;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;}
+
+  .label-highscore{
+    margin-top: 0.4rem;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;}
